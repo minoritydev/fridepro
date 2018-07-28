@@ -8,7 +8,8 @@ vegSearchEntry.place(x=0, y=120)
 
 def numpadInput(num):
     global pos   # this will make sure that the increment following next line is on the variable that is outside the numpadInput() function 
-                 # If this does not work in our ui.py file , try putting the line #16 in the most outside scope in ui.py
+                 # put this function in quantityWindow() and line # 17 inside the block of quantityWindow() 
+                 # If this does not work in our ui.py file , try putting the line #17 of this file in the most outside scope in ui.py (preferrably below import lines)
     
     vegSearchEntry.insert(pos,num)           
     pos+=1
