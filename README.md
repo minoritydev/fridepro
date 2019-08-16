@@ -1,2 +1,3 @@
 # fridepro
-wip
+Simple tool to manage inventory 
+WIP
